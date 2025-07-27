@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop by Brand - HeartMed</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header with Navigation -->
+    <header class="navbar navbar-expand-lg navbar-light bg-white shadow-sm sticky-top">
+        <div class="container">
+            <a class="navbar-brand fs-3 fw-bold text-pink" href="index.html">Heartmed</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active" href="#" id="brandsDropdown" role="button" data-bs-toggle="dropdown">
+                            Shop by Brand
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="brands.html">All Brands</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#natures-bounty">Nature's Bounty</a></li>
+                            <li><a class="dropdown-item" href="#centrum">Centrum</a></li>
+                            <li><a class="dropdown-item" href="#one-a-day">One A Day</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="categoriesDropdown" role="button" data-bs-toggle="dropdown">
+                            Shop by Category
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="categories.html">All Categories</a></li>
+                            <li><a class="dropdown-item" href="categories.html#vitamins">Vitamins</a></li>
+                            <li><a class="dropdown-item" href="categories.html#minerals">Minerals</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="authDropdown" role="button" data-bs-toggle="dropdown">
+                            <i class="bi bi-person"></i> Account
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="login.html">Login</a></li>
+                            <li><a class="dropdown-item" href="register.html">Register</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container my-5">
+        <div class="row mb-4">
+            <div class="col-12">
+                <h1 class="text-pink">Shop by Brand</h1>
+                <p class="lead">Browse products from our trusted brand partners</p>
+            </div>
+        </div>
+
+        <!-- Nature's Bounty Brand -->
+        <section id="natures-bounty" class="brand-section mb-5">
+            <div class="d-flex justify-content-between align-items-center mb-4">
+                <h2 class="text-pink">Nature's Bounty</h2>
+        x
+            </div>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 row-cols-xl-5 g-4">
+                <!-- Product 1 -->
+                <div class="col">
+                    <div class="card h-100 product-card">
+                        <img src="img/img7.jpg" class="card-img-top" alt="Nature's Bounty Vitamin D3">
+                        <div class="card-body">
+                            <h5 class="card-title">Vitamin D3 5000IU</h5>
+                            <p class="card-text">Supports immune health and strong bones with high-potency Vitamin D.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="price">$14.99</span>
+                                <a href="#" class="btn btn-sm btn-pink">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product 2 -->
+                <div class="col">
+                    <div class="card h-100 product-card">
+                        <img src="img/img8.jpg" class="card-img-top" alt="Nature's Bounty Vitamin C">
+                        <div class="card-body">
+                            <h5 class="card-title">Vitamin C 1000mg</h5>
+                            <p class="card-text">Powerful antioxidant support for immune system health.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="price">$12.99</span>
+                                <a href="#" class="btn btn-sm btn-pink">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product 3 -->
+                <div class="col">
+                    <div class="card h-100 product-card">
+                        <img src="img/img9.jpg" class="card-img-top" alt="Nature's Bounty Fish Oil">
+                        <div class="card-body">
+                            <h5 class="card-title">Omega-3 Fish Oil</h5>
+                            <p class="card-text">Supports heart and brain health with essential fatty acids.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="price">$18.99</span>
+                                <a href="#" class="btn btn-sm btn-pink">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product 4 -->
+                <div class="col">
+                    <div class="card h-100 product-card">
+                        <img src="img/img10.jpg" class="card-img-top" alt="Nature's Bounty Melatonin">
+                        <div class="card-body">
+                            <h5 class="card-title">Melatonin 5mg</h5>
+                            <p class="card-text">Sleep support supplement to help regulate sleep cycles.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="price">$9.99</span>
+                                <a href="#" class="btn btn-sm btn-pink">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product 5 -->
+                <div class="col">
+                    <div class="card h-100 product-card">
+                        <img src="img/img11.jpg" class="card-img-top" alt="Nature's Bounty Biotin">
+                        <div class="card-body">
+                            <h5 class="card-title">Biotin 5000mcg</h5>
+                            <p class="card-text">Supports healthy hair, skin and nails with high-potency biotin.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="price">$11.99</span>
+                                <a href="#" class="btn btn-sm btn-pink">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product 6 -->
+                <div class="col">
+                    <div class="card h-100 product-card">
+                        <img src="img/img12.jpg" class="card-img-top" alt="Nature's Bounty Milk Thistle">
+                        <div class="card-body">
+                            <h5 class="card-title">Milk Thistle 250mg</h5>
+                            <p class="card-text">Promotes healthy liver function with silymarin extract.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="price">$11.99</span>
+                                <a href="#" class="btn btn-sm btn-pink">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product 7 -->
+                <div class="col">
+                    <div class="card h-100 product-card">
+                        <img src="img/img13.jpg" class="card-img-top" alt="Nature's Bounty B-12">
+                        <div class="card-body">
+                            <h5 class="card-title">B-12 5000mcg</h5>
+                            <p class="card-text">Supports energy metabolism and nervous system health.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="price">$11.99</span>
+                                <a href="#" class="btn btn-sm btn-pink">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product 8 -->
+                <div class="col">
+                    <div class="card h-100 product-card">
+                        <img src="img/img14.jpg" class="card-img-top" alt="Nature's Bounty Magnesium">
+                        <div class="card-body">
+                            <h5 class="card-title">Magnesium 400mg</h5>
+                            <p class="card-text">Supports muscle relaxation and nerve function.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="price">$12.49</span>
+                                <a href="#" class="btn btn-sm btn-pink">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product 9 -->
+                <div class="col">
+                    <div class="card h-100 product-card">
+                        <img src="img/img15.jpg" class="card-img-top" alt="Nature's Bounty Zinc">
+                        <div class="card-body">
+                            <h5 class="card-title">Zinc 50mg</h5>
+                            <p class="card-text">Supports immune system function and antioxidant activity.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="price">$8.99</span>
+                                <a href="#" class="btn btn-sm btn-pink">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product 10 -->
+                <div class="col">
+                    <div class="card h-100 product-card">
+                        <img src="img/img16.jpg" class="card-img-top" alt="Nature's Bounty CoQ10">
+                        <div class="card-body">
+                            <h5 class="card-title">CoQ10 200mg</h5>
+                            <p class="card-text">Supports heart health and cellular energy production.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="price">$24.99</span>
+                                <a href="#" class="btn btn-sm btn-pink">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Centrum Brand -->
+        <section id="centrum" class="brand-section mb-5">
+            <div class="d-flex justify-content-between align-items-center mb-4">
+                <h2 class="text-pink">Centrum</h2>
+            </div>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 row-cols-xl-5 g-4">
+                <!-- Centrum Product 1 -->
+                <div class="col">
+                    <div class="card h-100 product-card">
+                        <img src="img/img17.jpg" class="card-img-top" alt="Centrum Adults Multivitamin">
+                        <div class="card-body">
+                            <h5 class="card-title">Adults Multivitamin</h5>
+                            <p class="card-text">Complete daily nutrition with essential vitamins and minerals.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="price">$19.99</span>
+                                <a href="#" class="btn btn-sm btn-pink">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Centrum Product 2 -->
+                <div class="col">
+                    <div class="card h-100 product-card">
+                        <img src="img/img18.jpg" class="card-img-top" alt="Centrum Silver">
+                        <div class="card-body">
+                            <h5 class="card-title">Silver Multivitamin 50+</h5>
+                            <p class="card-text">Tailored for adults 50+ with higher vitamin D and B12.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="price">$22.99</span>
+                                <a href="#" class="btn btn-sm btn-pink">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Centrum Product 3 -->
+                <div class="col">
+                    <div class="card h-100 product-card">
+                        <img src="img/img19.jpg" class="card-img-top" alt="Centrum Women">
+                        <div class="card-body">
+                            <h5 class="card-title">Women Multivitamin</h5>
+                            <p class="card-text">Specially formulated for women's nutritional needs.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="price">$21.99</span>
+                                <a href="#" class="btn btn-sm btn-pink">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Centrum Product 4 -->
+                <div class="col">
+                    <div class="card h-100 product-card">
+                        <img src="img/img20.jpg" class="card-img-top" alt="Centrum Men">
+                        <div class="card-body">
+                            <h5 class="card-title">Men Multivitamin</h5>
+                            <p class="card-text">Formulated to support men's specific health needs.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="price">$21.99</span>
+                                <a href="#" class="btn btn-sm btn-pink">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Centrum Product 5 -->
+                <div class="col">
+                    <div class="card h-100 product-card">
+                        <img src="img/img21.jpg" class="card-img-top" alt="Centrum Kids">
+                        <div class="card-body">
+                            <h5 class="card-title">Kids Multivitamin</h5>
+                            <p class="card-text">Chewable vitamins with essential nutrients for children.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="price">$15.99</span>
+                                <a href="#" class="btn btn-sm btn-pink">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Centrum Product 6 -->
+                <div class="col">
+                    <div class="card h-100 product-card">
+                        <img src="img/img22.jpg" class="card-img-top" alt="Centrum Silver Women">
+                        <div class="card-body">
+                            <h5 class="card-title">Silver Women 50+</h5>
+                            <p class="card-text">Tailored for women over 50 with calcium and vitamin D.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="price">$24.99</span>
+                                <a href="#" class="btn btn-sm btn-pink">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Centrum Product 7 -->
+                <div class="col">
+                    <div class="card h-100 product-card">
+                        <img src="img/img23.jpg" class="card-img-top" alt="Centrum Silver Men">
+                        <div class="card-body">
+                            <h5 class="card-title">Silver Men 50+</h5>
+                            <p class="card-text">Formulated for men over 50 with lycopene and vitamin D.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="price">$24.99</span>
+                                <a href="#" class="btn btn-sm btn-pink">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Centrum Product 8 -->
+                <div class="col">
+                    <div class="card h-100 product-card">
+                        <img src="img/img24.jpg" class="card-img-top" alt="Centrum Energy">
+                        <div class="card-body">
+                            <h5 class="card-title">Energy Multivitamin</h5>
+                            <p class="card-text">With ginseng and B vitamins for energy support.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="price">$23.99</span>
+                                <a href="#" class="btn btn-sm btn-pink">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Centrum Product 9 -->
+                <div class="col">
+                    <div class="card h-100 product-card">
+                        <img src="img/img25.jpg" class="card-img-top" alt="Centrum Prenatal">
+                        <div class="card-body">
+                            <h5 class="card-title">Prenatal Multivitamin</h5>
+                            <p class="card-text">With folic acid and iron for pregnancy nutrition.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="price">$26.99</span>
+                                <a href="#" class="btn btn-sm btn-pink">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Centrum Product 10 -->
+                <div class="col">
+                    <div class="card h-100 product-card">
+                        <img src="img/img26.jpg" class="card-img-top" alt="Centrum MultiGummies">
+                        <div class="card-body">
+                            <h5 class="card-title">MultiGummies Adults</h5>
+                            <p class="card-text">Delicious gummy multivitamin for adults.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="price">$18.99</span>
+                                <a href="#" class="btn btn-sm btn-pink">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- One A Day Brand -->
+        <section id="one-a-day" class="brand-section mb-5">
+            <div class="d-flex justify-content-between align-items-center mb-4">
+                <h2 class="text-pink">One A Day</h2>
+            </div>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 row-cols-xl-5 g-4">
+                <!-- One A Day Product 1 -->
+                <div class="col">
+                    <div class="card h-100 product-card">
+                        <img src="img/img27.jpg" class="card-img-top" alt="One A Day Men's Health">
+                        <div class="card-body">
+                            <h5 class="card-title">Men's Health Formula</h5>
+                            <p class="card-text">Supports heart health and energy with key nutrients.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="price">$17.99</span>
+                                <a href="#" class="btn btn-sm btn-pink">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- One A Day Product 2 -->
+                <div class="col">
+                    <div class="card h-100 product-card">
+                        <img src="img/img28.jpg" class="card-img-top" alt="One A Day Women's">
+                        <div class="card-body">
+                            <h5 class="card-title">Women's Multivitamin</h5>
+                            <p class="card-text">Complete women's nutrition with iron and calcium.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="price">$16.99</span>
+                                <a href="#" class="btn btn-sm btn-pink">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- One A Day Product 3 -->
+                <div class="col">
+                    <div class="card h-100 product-card">
+                        <img src="img/img29.jpg" class="card-img-top" alt="One A Day Women's 50+">
+                        <div class="card-body">
+                            <h5 class="card-title">Women's 50+</h5>
+                            <p class="card-text">Formulated for women over 50 with bone support.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="price">$18.99</span>
+                                <a href="#" class="btn btn-sm btn-pink">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- One A Day Product 4 -->
+                <div class="col">
+                    <div class="card h-100 product-card">
+                        <img src="img/img30.jpg" class="card-img-top" alt="One A Day Men's 50+">
+                        <div class="card-body">
+                            <h5 class="card-title">Men's 50+</h5>
+                            <p class="card-text">Supports heart, eye and prostate health for men 50+.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="price">$18.99</span>
+                                <a href="#" class="btn btn-sm btn-pink">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- One A Day Product 5 -->
+                <div class="col">
+                    <div class="card h-100 product-card">
+                        <img src="img/img31.jpg" class="card-img-top" alt="One A Day Teen">
+                        <div class="card-body">
+                            <h5 class="card-title">Teen Multivitamin</h5>
+                            <p class="card-text">Supports growth and development in teenagers.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="price">$14.99</span>
+                                <a href="#" class="btn btn-sm btn-pink">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- One A Day Product 6 -->
+                <div class="col">
+                    <div class="card h-100 product-card">
+                        <img src="img/img32.jpg" class="card-img-top" alt="One A Day Prenatal">
+                        <div class="card-body">
+                            <h5 class="card-title">Prenatal Multivitamin</h5>
+                            <p class="card-text">With DHA, folic acid and iron for pregnancy.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="price">$22.99</span>
+                                <a href="#" class="btn btn-sm btn-pink">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- One A Day Product 7 -->
+                <div class="col">
+                    <div class="card h-100 product-card">
+                        <img src="img/img33.jpg" class="card-img-top" alt="One A Day Energy">
+                        <div class="card-body">
+                            <h5 class="card-title">Energy Multivitamin</h5>
+                            <p class="card-text">With B vitamins and ginseng for energy support.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="price">$19.99</span>
+                                <a href="#" class="btn btn-sm btn-pink">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- One A Day Product 8 -->
+                <div class="col">
+                    <div class="card h-100 product-card">
+                        <img src="img/img34.jpg" class="card-img-top" alt="One A Day Immunity">
+                        <div class="card-body">
+                            <h5 class="card-title">Immunity Support</h5>
+                            <p class="card-text">With vitamins C, D, zinc and echinacea.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="price">$20.99</span>
+                                <a href="#" class="btn btn-sm btn-pink">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- One A Day Product 9 -->
+                <div class="col">
+                    <div class="card h-100 product-card">
+                        <img src="img/img35.jpg" class="card-img-top" alt="One A Day MultiGummies">
+                        <div class="card-body">
+                            <h5 class="card-title">MultiGummies Adults</h5>
+                            <p class="card-text">Delicious gummy vitamins with essential nutrients.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="price">$16.49</span>
+                                <a href="#" class="btn btn-sm btn-pink">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- One A Day Product 10 -->
+                <div class="col">
+                    <div class="card h-100 product-card">
+                        <img src="img/img36.jpg" class="card-img-top" alt="One A Day Hair Skin Nails">
+                        <div class="card-body">
+                            <h5 class="card-title">Hair, Skin & Nails</h5>
+                            <p class="card-text">With biotin, vitamins C and E for beauty support.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="price">$17.99</span>
+                                <a href="#" class="btn btn-sm btn-pink">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-pink text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start">
+                    <div class="fs-3 fw-bold">Heartmed</div>
+                    <p>&copy; 2023 Heartmed. All rights reserved.</p>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <p>123 Health Street<br>Wellness City, WC 10001</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
